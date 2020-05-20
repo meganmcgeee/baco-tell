@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baco Tell</title>
+    <style>
+        @font-face {
+            font-family: 'Comic Sans MS Regular';
+            src: url(fonts/ComicSansMS3.ttf);
+        }
+        body{
+            background-image: url('img/baco-tell.png');
+            font-family: 'Comic Sans MS Regular';
+        }
+
+        .button{
+            font-size: 6em;
+            margin: 5em;
+            border: 1px solid #000;
+        }
+        form{
+        
+       
+        }
+        .order-form{
+            padding: 5em;
+            margin-top: 9em;
+            margin-left: 7em;
+            height: 500px;
+            width: 1000px;
+            background-color: white;
+        }
+    </style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167266953-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167266953-1');
+</script>
+</head>
+<body> 
+
+    <div class="order-form">
+        <form>
+            <h2>Payment</h2>
+            <input type="checkbox" id="goods" name="goods" value="goods">
+            <label for="goods">Goods of Equal or Greate Value of Order</label><br>
+            <label for="descofgoods">Description of Goods</label><br>
+            <input type="text" id="descofgoods" name="descofgoods" value="1 case of La Croix"><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Ca$h Money</label><br>
+            <p></p>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Services</label><br>
+            <p></p>
+            
+            <label for="lname">Apt Number</label><br>
+            <input type="text" id="lname" name="lname" value="Apt 4"><br><br>
+            <label for="lname">City</label><br>
+            <input type="text" id="lname" name="lname" value="Long Beach"><br><br>
+            <label for="lname">Zip</label><br>
+            <input type="text" id="lname" name="lname" value="zip"><br><br>
+            <label for="lname">Phone Number or Social Profile</label><br>
+            <input type="text" id="lname" name="lname" value="www.instagram.com/bacotell or (555) 555- 5555"><br><br>
+           <a href="confirmation.html"> <input type="submit" value="Submit"></a>
+        </form>
+        </div>
+</body>
+</html>
