@@ -68,7 +68,9 @@ p{
        
         }
         label{
-            font-size:1em;
+            font-size:1.5em;
+            font-weight: 600;
+
         }
         .order-form{
             padding-left: 5em;
@@ -124,30 +126,41 @@ p{
     <div class="order-form">
         <div class='some-page-wrapper'>
             <h2> The Menu</h2>
-            <p> Please choose the items you would like. Bear in mind if you do not have money, we accept goods and services. Some restrictions apply.</p>
+            <p> Please choose the items you would like. Bear in mind if you do not have money, we accept goods and services. Some <a href="restrictions.html">restrictions apply.</a></p>
             <div class='row'>
               <div class='column'>
                 <div class='first-column'>
+                 <form action="spamchick10@gmail.com"></form>
                   <input type="checkbox" id="CG" name="cg" value="chesgord">
                   <label for="cg">El Gordito Crunch Crunch </label><br>
                   <p>made with a hard taco shell filled with seasoned beef, lettuce, real cheddar cheese and spicy ranch sauce all tucked nicely in a piece of flatbread with melted three cheese blend.</p>
                   <p class="price">$5.00 | Goods for Barter | Services for Barter</p>
                   <p><em>Served with Fiery Sauce</em></p>
-                  <label for="quantity-chesgord">Quantity (between 1 and 5):</label>
+                  <label for="quantity-chesgord">Quantity:</label>
                   <input type="number" id="quantity" name="quant-chesgord" min="1" max="5">
+                  <br>
+                  <div style="padding-top: 2em;">
+                    <input type="checkbox" id="hahablast" name="hahablast" value="hahablast">
+                    <label for="hahablast">HaHa Blast</label><br>
+                    <p>a refreshing frozen soft drink with the flavor of a tropical lime storm</p>
+                    <p class="price">$5.00 | Goods/ Services</p>
+                    <label for="quantity-haha">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                   </div>
                   
-                  <input type="checkbox" id="vehicle2" name="vehicle2" value="chickques">
-                  <label for="vehicle2"> Chicken Quesadilla</label><br>
-                  <p> A simple flour tortilla with some grilled chicken, a hefty portion of melted three-cheese blend, creamy jalapeño sauce, and absolutely zero bells and whistles. It's the culinary equivalent to a comfortable, plain black shirt that is equally sleek as it is chic.</p>
-                  <p class="price">$10.00 | Goods for Barter | Services for Barter</p>
-                  <em><p>Served with Fiery Sauce</p></em>
-                  <label for="quantity-chickques">Quantity (between 1 and 5):</label>
-                  <input type="number" id="quantity" name="quantchick-ques" min="1" max="5">
-                
                 </div>
               </div>
               <div class='column'>
                 <div class='second-column'>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="chickques">
+                    <label for="vehicle2"> Chicken Quesadilla</label><br>
+                    <p> A simple flour tortilla with some grilled chicken, a hefty portion of melted three-cheese blend, creamy jalapeño sauce, and absolutely zero bells and whistles. It's the culinary equivalent to a comfortable, plain black shirt that is equally sleek as it is chic.</p>
+                    <p class="price">$10.00 | Goods for Barter | Services for Barter</p>
+                    <em><p>Served with Fiery Sauce</p></em>
+                    <label for="quantity-chickques">Quantity:</label>
+                    <input type="number" id="quantity" name="quantchick-ques" min="1" max="5">
+                    <br>
+                    <div style="padding-top: 2em;">
                   <input type="checkbox" id="vehicle3" name="vehicle3" value="chesques">
                   <label for="vehicle3"> Cheese Quesadilla</label><br>
                   <p>Cheese Quesadilla with creamy jalapeño sauce and three cheese blend</p>
@@ -155,36 +168,22 @@ p{
                   <p><em>Served with Fiery Sauce</em></p>
                   <label for="quantity-chesques">Quantity :</label>
                   <input type="number" id="quantity" name="quantity" min="1" max="10">
+                </div>
+                
                  
-                  <input type="checkbox" id="hahablast" name="hahablast" value="hahablast">
-                  <label for="hahablast">HaHa Blast</label><br>
-                  <p>a refreshing frozen soft drink with the flavor of a tropical lime storm</p>
-                  <p class="price">$5.00 | Goods/ Services</p>
-                  <label for="quantity-haha">Quantity:</label>
-                  <input type="number" id="quantity" name="quantity" min="1" max="5">
-                  
+                
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        <h1>Menu</h1>
+          <input type="submit" value="Continue to checkout" class="btn">
    
             
 
-                        <div class='row'>
-                            <div class='column'>
-                   
-                    <form action="/action_page.php">
-                             
-                        </div>
-                        </div>
-                        <div class='row'>
-                          <div class='column'>
-                           
-                        </div>
+                       
                         <a href="disclaimer.html"><div class=""> About Baco Tell</div> </a>
-                    </form>
+        </form>
                    
              
           

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hungry in Long Beach? 🌮 DELIVERY in 15 minutes or less🌮 
+    </title>
+    <meta name="title" content="Hungry in Long Beach?  🌮 DELIVERY in 15 minutes or less🌮 
+    ">
+    <meta name="description" content="Are you you starving for a mouth-watering, flavorful, stuffed with cheese, quesadilla experience? Stop serving the corporate overlords and eat Baco Tell.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Hungry in Long Beach?  🌮 DELIVERY in 15 minutes or less🌮 
+    ">
+    <meta property="og:description" content="Are you you starving for a mouth-watering, flavorful, stuffed with cheese, quesadilla experience? Stop serving the corporate overlords and eat Baco Tell.">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Hungry in Long Beach?  🌮 DELIVERY in 15 minutes or less🌮 
+    ">
+    <meta property="twitter:description" content="Are you you starving for a mouth-watering, flavorful, stuffed with cheese, quesadilla experience? Stop serving the corporate overlords and eat Baco Tell.">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <title>Baco Tell</title>
+    <style>
+        @font-face {
+            font-family: 'Futura Heavy Oblique';
+            src: url(fonts/Futura-HeavyOblique.otf);
+        }
+        body{
+            background-image: url('img/baco-tell-logo.png');
+            font-family: 'Futura Heavy Oblique';
+            text-align: center;
+            margin: 4em;
+            padding-top: 3em;
+            font-size: 3em;
+        }
+        label{
+            background-color: white;
+            /* padding: em; */
+        }
+        input{
+            height: 2em;
+            border: 1px solid black;
+            margin: 2em;
+            padding-left: 4em;
+            padding-right: 4em;
+            border: 3px solid chartreuse;
+            background-color: white;
+
+        }
+</style>
+</head>
+<body>
+<form>
+    <label for="pswd">Enter your code: </label><br>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "fuckyou2020";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="index.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+</script>
+</body>
+</html>
