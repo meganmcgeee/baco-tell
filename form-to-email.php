@@ -8,8 +8,7 @@
 
 	$email_subject = "New bacotell submission";
 
-	$email_body = "You have received an order of $chesgordquant cheesy gordita $chesgord from the user $name.\n".
-
+	$email_body = "You have received an order of $chesgordquant cheesy gordita $chesgord from the user $name.\n"
 ?>
 
 <?php
